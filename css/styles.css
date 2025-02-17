@@ -5,3 +5,59 @@
     padding: 0;
     box-sizing: border-box;
   }
+  .header {
+    width: 346px;
+    height: 231px;
+    background: red;
+    margin: 43px 24px 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .div__bar {
+    background: palegoldenrod;
+    width: 352px;
+    height: 34px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 286px;
+  }
+  .div__bar img:first-child{
+    width: 32px;
+    height: 32px;
+  }
+  .div__bar img:last-child{
+    width: 20px;
+    height: 20px;
+  }
+  .header h1{
+    background: wheat;
+    width: 265px;
+    height: 72px;
+    margin-bottom: 20px;
+  }
+ 
+  .nav {
+    width: 346px;
+    height: 85px;
+    background: blue;
+  }
+  .form__search {
+    width: 364px;
+    height: 41px;
+    background: green;
+    display: flex;
+    margin-bottom: 16px;
+  }
+  .div__search {
+    width: 157px;
+    height: 17px;
+    background: yellow;
+  }
+
+  .ul__bar{
+    width: 391px;
+    height: 28px;
+    background: rebeccapurple;
+    display: flex;
+  }
