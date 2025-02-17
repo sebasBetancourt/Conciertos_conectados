@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: auto;
   }
   .header {
     width: 346px;
@@ -35,24 +36,58 @@
     width: 265px;
     height: 72px;
     margin-bottom: 20px;
+    color: var(--font-color-1);
+    font-family: "Inter-SemiBold";
+    font-size: 30px;
+  }
+  .header h1 strong{
+    color: var(--font-color-2);
   }
  
   .nav {
     width: 346px;
     height: 85px;
     background: blue;
+    display: flex;
+    flex-direction: column;
   }
   .form__search {
     width: 364px;
     height: 41px;
     background: green;
     display: flex;
+    gap: 148px;
     margin-bottom: 16px;
+    border-radius: 10px;
   }
   .div__search {
     width: 157px;
     height: 17px;
     background: yellow;
+    margin: 12px 0 12px 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .div__search img{
+    width: 17px;
+    height: 17px;
+    margin: 1px 0;
+  }
+  .div__search input{
+    width: 82px;
+    height: 15px;
+    border: none;
+    outline: none;
+    margin: 1px 0 1px 0;
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    color: var(--font-color-1);
+  }
+  .form__search img{
+    width: 17px;
+    height: 17px;
+    align-self: center;
   }
 
   .ul__bar{
@@ -60,4 +95,35 @@
     height: 28px;
     background: rebeccapurple;
     display: flex;
+    gap: 12px;
+  }
+  .ul__bar li{
+    list-style: none;
+    background: turquoise;
+    align-content: center;
+    text-align: center;
+  }
+  .ul__bar li:nth-child(1){
+    width: 112px;
+    height: 28px;
+    background: var(--color-2);
+    border-radius: 8px;
+  }
+  .ul__bar li:nth-child(2){
+    width: 76px;
+    height: 28px;
+    background: var(--color-3);
+    border-radius: 8px;
+  }
+  .ul__bar li:nth-child(3){
+    width: 104px;
+    height: 28px;
+    background: var(--color-4);
+    border-radius: 8px;
+  }
+  .ul__bar li:nth-child(4){
+    width: 63px;
+    height: 28px;
+    background: var(--color-5);
+    border-radius: 8px;
   }
