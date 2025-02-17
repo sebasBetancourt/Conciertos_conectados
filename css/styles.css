@@ -4,18 +4,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: auto;
+    overflow-x: hidden;
   }
   .header {
-    width: 346px;
-    height: 231px;
-    background: red;
-    margin: 43px 24px 0 20px;
+    position: relative; 
+    z-index: 0;
+    padding: 43px 24px 0 20px;
     display: flex;
     flex-direction: column;
   }
+  
+  .header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--background-color-1);
+    filter: blur(250px);
+    opacity: 0.15; 
+    z-index: -1; 
+  }
+  
   .div__bar {
-    background: palegoldenrod;
+    /* background: palegoldenrod; */
     width: 352px;
     height: 34px;
     margin-bottom: 20px;
@@ -32,7 +45,7 @@
     height: 20px;
   }
   .header h1{
-    background: wheat;
+    /* background: wheat; */
     width: 265px;
     height: 72px;
     margin-bottom: 20px;
@@ -47,23 +60,25 @@
   .nav {
     width: 346px;
     height: 85px;
-    background: blue;
+    /* background: blue; */
     display: flex;
     flex-direction: column;
   }
   .form__search {
-    width: 364px;
+    width: 344px;
     height: 41px;
-    background: green;
+    /* background: green; */
     display: flex;
     gap: 148px;
     margin-bottom: 16px;
     border-radius: 10px;
+
+    background: var(--color-1);
   }
   .div__search {
     width: 157px;
     height: 17px;
-    background: yellow;
+    /* background: yellow; */
     margin: 12px 0 12px 12px;
     display: flex;
     align-items: center;
@@ -93,15 +108,17 @@
   .ul__bar{
     width: 391px;
     height: 28px;
-    background: rebeccapurple;
+    /* background: rebeccapurple; */
     display: flex;
+    overflow-x: scroll;
     gap: 12px;
   }
   .ul__bar li{
     list-style: none;
-    background: turquoise;
+    /* background: turquoise; */
     align-content: center;
     text-align: center;
+    flex-shrink: 0;
   }
   .ul__bar li:nth-child(1){
     width: 112px;
@@ -127,3 +144,10 @@
     background: var(--color-5);
     border-radius: 8px;
   }
+  .ul__bar li a{
+    font-family: "Inter-Regular";
+    text-decoration: none;
+    color: var(--font-color-1);
+    font-size: 12px;
+  }
+
