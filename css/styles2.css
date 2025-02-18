@@ -98,7 +98,7 @@
 }
 .div__participants h5{
   font-family: "Inter-Medium";
-  font-size: 12px;
+  font-size: 10px;
   color: var(--font-color-1);
 }
 .div__users {
@@ -128,13 +128,14 @@
 .div__description {
   display: flex;
   flex-direction: column;
-  width: 310px;
+  width: 330px;
   height: 133px;
   margin-top: 123px;
   gap: 8px;
 }
 .div__description h5{
   font-family: "Inter-Medium";
+  font-weight: normal;
   font-size: 14px;
   color: var(--font-color-1);
 }
