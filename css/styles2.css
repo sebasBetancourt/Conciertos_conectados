@@ -149,3 +149,13 @@
   font-size: 12px;
   color: var(--font-color-7);
 }
+.section__location{
+  display: flex;
+  height: 270px;
+  flex-direction: column;
+  margin-top: 28px;
+  gap: 12px;
+}
+.section__location iframe{
+  border-radius: 16px;
+}
