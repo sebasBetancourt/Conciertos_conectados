@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    outline: auto;
   }
   .header {
     position: relative; 
@@ -163,7 +162,7 @@
     gap: 16px;
   }
   .div__trend {
-    width: 348px;
+    width: 328px;
     height: 17px;
     display: flex;
     justify-content: space-between;
@@ -183,23 +182,88 @@
 
 
   .div__carousel {
-    width: 339px;
+    width: 100%;
     height: 186px;
     display: flex;
-    overflow-x: hidden;
+    overflow-x: scroll;
+    gap: 16px;
+    position: relative;
   }
   .div__container {
-    width: 100%;
-    height: 100%;
+    width: 339px;
+    height: 186px;
+    flex-shrink: 0;
   }
   .div__container img{
+    width: 100%;
+    height: 100%;
     position: absolute;
   }
   .div__info {
     position: relative;
+    background: var(--color-6);
+    backdrop-filter: blur(30px);
+    width: 332px;
+    height: 90px;
+    display: flex;
+    border-radius: 10px;
+    margin: 88px 7px 8px 7px;
   }
   .div__dates {
+    /* background: green; */
+    width: 184px;
+    height: 57px;
+    margin: 16.5px 0 16.5px 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
+  
+  .div__dates h5{
+    font-family: "Inter-SemiBold";
+    font-size: 12px;
+    color: var(--font-color-4);
+    margin: 0;
+  }
+  .div__dates-info {
+    display: flex;
+    gap: 2px;
+  }
+
+.div__dates img {
+  position: relative;
+  /* background-color: aqua; */
+  width: 11px;
+  height: 12px;
+  margin-right: 2px;
+  flex-shrink: 0; 
+}
+
+.div__dates span {
+  /* background: yellow; */
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    color: var(--font-color-4);
+    margin: 0;
+}
+
   .div__price {
+    width: 102px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    /* background: black; */
+    margin: 27.5px 0 27.5px 20px;
+    gap: 4px;  
+  }
+  .div__price span{
+    font-family: "Inter-Regular";
+    font-size: 10px;
+    color: var(--font-color-4);
+  }
+  .div__price h4{
+    font-family: "Inter-Semibold";
+    font-size: 16px;
+    color: var(--font-color-4);
   }
   
