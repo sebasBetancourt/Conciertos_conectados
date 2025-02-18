@@ -96,7 +96,7 @@
   align-items: center;
   gap: 8px;
 }
-.div__participants h5{
+.div__participants h3{
   font-family: "Inter-Medium";
   font-size: 10px;
   color: var(--font-color-1);
@@ -158,4 +158,10 @@
 }
 .section__location iframe{
   border-radius: 16px;
+}
+.section__location h3{
+  font-family: "Inter-Medium";
+  font-size: 14px;
+  font-weight: normal;
+  color: var(--font-color-1);
 }
