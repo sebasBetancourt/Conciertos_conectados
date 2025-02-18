@@ -151,8 +151,6 @@
     font-size: 12px;
   }
 
-  .main {
-  }
   .div__trending {
     width: 346px;
     height: 219px;
@@ -239,7 +237,7 @@
   flex-shrink: 0; 
 }
 
-.div__dates span {
+.div__dates .div__dates-info span {
   /* background: yellow; */
     font-family: "Inter-Regular";
     font-size: 12px;
@@ -265,5 +263,85 @@
     font-family: "Inter-Semibold";
     font-size: 16px;
     color: var(--font-color-4);
+  }
+  
+
+  .div__events {
+    width: 328px;
+    height: 17px;
+    display: flex;
+    margin: 40px 0 16px 20px;
+    justify-content: space-between;
+  }
+  .div__events h3{
+    font-family: "Inter-Semibold";
+    font-size: 14px;
+    color: var(--font-color-1);
+  }
+  .div__events a{
+    text-decoration: none;
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    color: var(--font-color-3);
+  }
+  .section__container {
+    width: 348px;
+    height: 273px;
+    display: flex;
+    margin: 0 22px 0 20px;
+    gap: 16px;
+  }
+  .div__box {
+    /* background: red; */
+    width: 166px;
+    height: 203px;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    gap: 9px;
+    padding: 8px;
+  }
+  .div__box-info {
+    /* background: green; */
+    width: 151px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .div__box-info h5{
+    font-family: "Inter-Semibold";
+    font-size: 10px;
+    color: var(--font-color-1);
+  }
+  .div__dates-info {
+    display: flex;
+    gap: 3px;
+  }
+  .div__dates-info span{
+    font-family: "Inter-Regular";
+    font-size: 10px;
+    color: var(--font-color-1);
+  }
+  .div__dates-info img{
+    width: 10px;
+    height: 11px;
+  }
+  
+
+  .div__box-price{
+    display: flex;
+    justify-items: center;
+    gap: 3px;
+  }
+  .div__box-price img{
+    width: 16px;
+    height: 16px;
+  }
+  .div__box-price span{
+    font-family: "Inter-Semibold";
+    font-size: 12px;
+    color: var(--font-color-5);
   }
   
