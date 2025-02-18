@@ -16,7 +16,7 @@
     --font-color-8: #5F5A5A;
     --background-color-1: linear-gradient(135deg, rgba(0, 237, 252, 1) 0%, rgba(34, 34, 126, 1) 33%, rgba(117, 31, 139, 1) 66%);
     --background-color-6: #2D264B 50%;
-    --background-color-7: #FFFFFF 20%;
+    --background-color-7: rgba(255, 255, 255, 0.2);
     --background-color-8: linear-gradient(27deg, rgba(145,181,253,1) 0%, rgba(240,221,255,1) 100%);
     --background-color-9: linear-gradient(27deg, rgba(103,94,94,1) 0%, rgba(205,187,187,1) 100%);
     
