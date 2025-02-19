@@ -26,6 +26,9 @@
     border-radius: 6px;
     margin: 25px 0 0 22px;
   }
+  .div__arrow a{
+    text-decoration: none;
+  }
   .div__points {
     margin: 31px 25px 0 0;
   }
