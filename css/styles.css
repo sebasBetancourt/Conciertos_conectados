@@ -196,6 +196,10 @@
     width: 100%;
     height: 100%;
     position: absolute;
+    border-radius: 7px;
+  }
+  .div__container a{
+    text-decoration: none;
   }
   .div__info {
     position: relative;
@@ -286,7 +290,7 @@
   }
   .section__container {
     width: 348px;
-    height: 273px;
+    height: 223px;
     display: flex;
     margin: 0 22px 0 20px;
     gap: 16px;
@@ -301,6 +305,11 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     gap: 9px;
     padding: 8px;
+  }
+  .div__box > img{
+    width: 150px;
+    height: 100px;
+    border-radius: 8px;
   }
   .div__box-info {
     /* background: green; */
