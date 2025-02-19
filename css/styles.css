@@ -12,6 +12,7 @@
     padding: 43px 24px 0 20px;
     display: flex;
     flex-direction: column;
+    justify-self: center;
   }
   
   .header::before {
@@ -151,6 +152,9 @@
     font-size: 12px;
   }
 
+  .main{
+    justify-self: center;
+  }
   .div__trending {
     width: 346px;
     height: 219px;
@@ -169,12 +173,12 @@
   .div__trend h3{
     font-family: "Inter-Regular";
     color: var(--font-color-1);
-    font-size: 14px;
+    font-size: 12px;
   }
   .div__trend a{
     text-decoration: none;
     font-family: "Inter-Regular";
-    font-size: 12px;
+    font-size: 10px;
     color: var(--font-color-3);
   }
 
@@ -265,7 +269,7 @@
   }
   .div__price h4{
     font-family: "Inter-Semibold";
-    font-size: 16px;
+    font-size: 13px;
     color: var(--font-color-4);
   }
   
@@ -321,7 +325,7 @@
   }
   .div__box-info h5{
     font-family: "Inter-Semibold";
-    font-size: 10px;
+    font-size: 8px;
     color: var(--font-color-1);
   }
   .div__dates-info {
