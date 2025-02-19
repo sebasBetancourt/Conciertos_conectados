@@ -29,3 +29,19 @@
   .div__points {
     margin: 31px 25px 0 0;
   }
+  .main {
+    height: 750px;
+  }
+  .div__container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 46px 24.5px 0 22px;
+  }
+  .div__ticket {
+    width: 343.5px;
+    height: 593px;
+    background: var(--color-1);
+
+  }
+  
